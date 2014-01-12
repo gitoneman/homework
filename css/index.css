@@ -1,0 +1,92 @@
+.g-wrap {
+	width: 100%;
+	height: 100%;
+}
+.g-sd {
+	float: left;
+	width: 140px;
+	height: 100%;
+	background: #454545;
+}
+.m-menu li {
+	height: 140px;
+	line-height: 140px;
+	text-align: center;
+}
+.m-menu li:hover {
+	border-left: 2px solid #ff0000;
+}
+.m-menu li a{
+	display: block;
+	margin: 0 40px;
+	height: 100%;
+	color: #fff;
+	border-bottom: 1px dashed #ccc;
+}
+.g-mn {
+	margin-left: 140px;	
+	height: 100%;
+
+}
+.m-head {
+	height: 74px;
+	width: 100%;
+	background: #f8f8f8;
+	border-bottom: 2px solid #ebebeb;
+}
+.m-head span {
+	float:left;
+	display: block;	
+	border: 1px solid #d6d6d6;
+	
+}
+.m-head .refresh {
+	width:40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	margin: 16px 20px;	
+	border-radius: 20px;	
+}
+.m-head .tit {
+	width: 80px;
+	height: 36px;
+	line-height: 36px;
+	border-radius: 16px;
+	margin: 18px 0;
+	text-align: center;
+	font-weight: bold;	
+}
+
+.m-tab {
+	height: 74px;
+}
+.m-tab li {
+	float: left;
+	width: 200px;
+	height: 100%;
+	line-height: 74px;
+	text-align: center;
+	border-right: 1px solid #ebebeb;
+	background: rgba(235, 235, 235, 0.23);
+}
+.m-tab li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.m-tab li a:hover {
+	background: #fff;
+	height: 75px;
+}
+.m-tabWrap {
+	position: relative;
+	height: 300px;
+	border-top: 1px solid #ebebeb;
+
+}
+.m-tabWrap .item {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
