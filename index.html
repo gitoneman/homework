@@ -10,9 +10,9 @@
 	<div class="g-wrap">
 		<div class="g-sd">
 			<ul class="m-menu">
-				<li><a href="javascript://">11</a></li>
-				<li><a href="javascript://">22</a></li>
-				<li><a href="javascript://">33</a></li>
+				<li data-child="001"><a href="javascript://">11</a></li>
+				<li data-child="002"><a href="javascript://">22</a></li>
+				<li data-child="003"><a href="javascript://">33</a></li>
 			</ul>
 		</div>
 		<div class="g-mn">
@@ -21,16 +21,20 @@
 				<span class="tit">dashboard</span>
 			</div>
 			<div class="m-content">
-				<ul class="m-tab">
-					<li class="J_tab_item"><a href="javascript://">11</a></li>
-					<li class="J_tab_item"><a href="javascript://">22</a></li>
-					<li class="J_tab_item"><a href="javascript://">33</a></li>
-				</ul>
-				<div class="m-tabWrap">
-					<div class="item J_tab_wrap">11</div>
-					<div class="item J_tab_wrap">22</div>
-					<div class="item J_tab_wrap">33</div>
+				<div id="001">
+					<ul class="m-tab">
+						<li class="J_tab_item" data-child="004"><a href="javascript://">11</a></li>
+						<li class="J_tab_item" data-child="005"><a href="javascript://">22</a></li>
+						<li class="J_tab_item" data-child="006"><a href="javascript://">33</a></li>
+					</ul>
+					<div class="m-tabWrap">
+						<div class="item " id="004">11</div>
+						<div class="item " id="005">22</div>
+						<div class="item " id="006">33</div>
+					</div>
 				</div>
+				<div id="002"></div>
+				<div id="003"></div>		
 			</div>
 		</div>
 	</div>
